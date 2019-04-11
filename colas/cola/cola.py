@@ -1,3 +1,4 @@
+#Modulo de cola, operaciones de ordenamiento, impresión y mostrar inicio y final
 def getCola(max,cola):
     return (max,cola)
 
