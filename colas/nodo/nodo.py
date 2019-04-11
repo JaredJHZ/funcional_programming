@@ -1,4 +1,4 @@
-
+#Modulo de Nodo, se realizan las operaciones de inserción, eliminación y búsqueda
 def agregarNodo(cola,max,valor):
     if len(cola) == max :
         return print("La cola esta llena")
