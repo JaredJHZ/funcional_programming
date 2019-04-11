@@ -1,3 +1,4 @@
+#Modulo principal, donde se ejecuta el programa
 import cola.cola as cola
 import nodo.nodo as nodo
 import menu.menu as menu
