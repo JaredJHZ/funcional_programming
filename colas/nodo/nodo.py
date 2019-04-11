@@ -8,7 +8,7 @@ def agregarNodo(cola,max,valor):
         return cola
             
 def eliminarNodo(cola):
-    auxiliar = cola[len(cola)-1]
+    auxiliar = cola[0]
     nueva_cola = [numero for numero in cola if numero != auxiliar]
     return nueva_cola
 
@@ -16,7 +16,7 @@ def buscarValor(cola,actual, valor, size):
     if valor == cola[actual]:
         print("valor encontrado en la posicion "+str(actual))
         return actual
-    elif size >= len(cola)-1:
+    elif size > len(cola)-1:
         print("Error no se encontro el dato")
         return False
     else:

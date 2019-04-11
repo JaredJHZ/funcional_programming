@@ -11,7 +11,7 @@ def recorrerCola(cola,size,forma = ""):
         print(forma)
         return False
     else:
-        forma += str(cola[size]) + " "
+        forma += str(cola[size]) + "-"
         return recorrerCola(cola,size - 1, forma)
 
 def ordenar(cola):
@@ -43,3 +43,9 @@ def intercambio(cola, indice):
         return nuevaCola
     else:
         return False
+
+def printFinal(cola):
+    print(cola[len(cola-1)])
+
+def printPrincipio(cola):
+    print(cola[0])
